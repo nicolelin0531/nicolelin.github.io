@@ -356,8 +356,12 @@ section:not(#intro) {
     font-size: 18px;
   }
 
+  #second h4 {
+    font-weight: bold;
+  }
+
   .progress {
-    width: 60%;
+    width: 80%;
   }
 
   .headerDivider {
@@ -374,7 +378,7 @@ section:not(#intro) {
   }
 
   #fourth .timeline ul li {
-    width: 30%;
+    width: 25%;
   }
 
   #fifth .outer {
