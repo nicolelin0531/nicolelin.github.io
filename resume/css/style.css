@@ -26,6 +26,9 @@ li {
 body {
   width: 100%;
   min-width: 1024px;
+  margin: 0px;
+  padding: 0px;
+  background-size: cover;
   /* padding-right: 0px; */
   /* min-height: 768px !important; */
 }
@@ -313,6 +316,44 @@ section:not(#intro) {
 }
 
 @media only screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    min-width: 768px;
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+    /* padding-right: 0px; */
+    /* min-height: 768px !important; */
+  }
+
+  .container {
+    width: 100%;
+    min-width: 768px; /* 设置成和body一样的最小宽度 */
+    padding: 0px 0px;
+    background-size: 100% 100%;
+  }
+
+  col-md-* {
+    padding-right: 0px;
+    padding-left: 0px;
+    min-width: 768px;
+  }
+
+  .row {
+    padding-right: 0px;
+    min-width: 768px;
+  }
+
+  .navbar {
+    position: fixed;
+    z-index: 5555;
+    padding: 0px 0px;
+    background: rgba(0, 0, 0, 0.95);
+    /* width: 100%; */
+    min-width: 768px;
+    left: 0px;
+  }
+
   .headerDivider {
     display: none;
   }
