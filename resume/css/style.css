@@ -132,10 +132,6 @@ section:not(#intro) {
   height: 30px;
 }
 
-#second img {
-  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.8);
-}
-
 #second {
   padding: 80px 0px;
   background: #f3eddd;
@@ -146,9 +142,12 @@ section:not(#intro) {
   color: black;
 }
 
+#second img {
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.8);
+}
+
 #second .rightPart {
-  padding-left: 50px;
-  border-width: 2px;
+  padding-left: 30px;
 }
 
 #third {
@@ -345,6 +344,22 @@ section:not(#intro) {
     scale: 50%;
   }
 
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  .progress {
+    width: 60%;
+  }
+
   .headerDivider {
     display: none;
   }
@@ -359,7 +374,7 @@ section:not(#intro) {
   }
 
   #fourth .timeline ul li {
-    width: 40%;
+    width: 30%;
   }
 
   #fifth .outer {
