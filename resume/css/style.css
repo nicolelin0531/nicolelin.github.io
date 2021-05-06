@@ -1,3 +1,8 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 h1,
 h2,
 h3,
@@ -18,11 +23,29 @@ li {
   font-family: "Noto Sans TC", sans-serif;
 }
 
-.btn {
-  background: #f05f5c;
-  color: white;
-  padding: 9px 26px;
-  border-radius: 20%;
+body {
+  width: 100%;
+  min-width: 1024px;
+  /* padding-right: 0px; */
+  /* min-height: 768px !important; */
+}
+
+.container {
+  width: 100%;
+  min-width: 1024px; /* 设置成和body一样的最小宽度 */
+  padding: 0px 0px;
+  background-size: 100% 100%;
+}
+
+col-md-* {
+  padding-right: 0px;
+  padding-left: 0px;
+  min-width: 1024px;
+}
+
+.row {
+  padding-right: 0px;
+  min-width: 1024px;
 }
 
 h2 {
@@ -55,32 +78,28 @@ section:not(#intro) {
 
 .navbar {
   position: fixed;
-  background: rgba(0, 0, 0, 0.95);
   z-index: 5555;
-  width: 100%;
-  left: 0;
-  height: 50px;
-  top: 0;
+  padding: 0px 0px;
+  background: rgba(0, 0, 0, 0.95);
+  /* width: 100%; */
+  min-width: 1024px;
+  left: 0px;
 }
 
-#collapsibleNavbar {
-  background-color: rgba(0, 0, 0, 0.94);
+#intro {
+  padding: 0px 0px;
 }
 
 #intro .jumbotron {
-  height: 80vh;
-  margin-bottom: 0px;
   background: rgba(0, 0, 0, 0.9);
   text-align: center;
 }
 
 #intro .jumbotron .row {
   margin-top: 10px;
-  margin-bottom: 20px;
 }
 
 #intro h2 {
-  font-weight: 400;
   line-height: 1.5;
   color: rgb(255, 255, 255, 0.932);
 }
@@ -92,33 +111,27 @@ section:not(#intro) {
 
 #intro h4 {
   color: rgba(255, 255, 255, 0.596);
-  /* margin-top: 20px; */
   font-size: 18px;
 }
 
-#intro .container {
+/* #intro .container {
   position: relative;
-  top: 30%;
-  left: 60px;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-}
+} */
 
 #intro img {
   width: 130px;
   height: 170px;
   border-radius: 50%;
   margin-bottom: 13px;
-  margin-top: 200px;
-  left: 600px;
+  margin-top: 50px;
 }
 
 .headerDivider {
   border-left: 1px solid #8ea2b4;
   height: 30px;
-  /* position: relative; */
-  /* margin-top: 40px; */
 }
 
 #second img {
@@ -127,16 +140,8 @@ section:not(#intro) {
 }
 
 #second {
-  padding: 80px;
+  padding: 80px 0px;
   background: #f3eddd;
-}
-
-#second .rightPart {
-  background: rgba(0, 0, 0, 0.897);
-  padding-left: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right: 20px;
 }
 
 #second h2 {
@@ -144,19 +149,15 @@ section:not(#intro) {
   color: black;
 }
 
-#second h3 {
-  font-size: 20px;
-  color: rgba(255, 255, 255, 0.973);
-}
-
-#second ul li {
-  color: rgba(255, 255, 255, 0.973);
+#second .rightPart {
+  padding-left: 50px;
+  border-width: 2px;
 }
 
 #third {
   background-image: linear-gradient(to top left, #fcc930ee, #f2f2f7);
   /* background: #fcc930ee; */
-  padding: 80px;
+  padding: 80px 0px;
 }
 
 #third h2 {
@@ -169,7 +170,7 @@ section:not(#intro) {
 }
 
 #fourth {
-  padding: 80px;
+  padding: 80px 0px;
   background: #ffb2bc;
 }
 
@@ -179,18 +180,13 @@ section:not(#intro) {
 
 #fourth .timeline {
   width: 1000px;
-  /* height: auto;
-  max-width: 600px;
-  margin: 0 auto; */
-  margin: 50px auto;
-  padding: 40px 0;
+  /* margin: 50px auto; */
   position: relative;
 }
 
 #fourth .timeline:before {
   content: "";
   position: absolute;
-  left: 60%;
   width: 3px;
   height: 100%;
   background: #1e1f22;
@@ -198,20 +194,14 @@ section:not(#intro) {
 
 #fourth .timeline ul li {
   list-style: none;
-  width: 50%;
+  width: 70%;
   position: relative;
-  padding: 20px 40px;
+  padding: 20px 20px;
   box-sizing: border-box;
   background-color: #1e1f22;
   color: white;
   border-radius: 10px;
   margin-bottom: 20px;
-  margin-right: -170px;
-  margin-left: 40px;
-}
-
-#fourth .timeline ul li:last-child {
-  margin-bottom: 0;
 }
 
 #fourth .timeline h4 {
@@ -228,28 +218,20 @@ section:not(#intro) {
   letter-spacing: 2px;
 }
 
-#fourth .timeline ul li:nth-child(odd) {
-  float: left;
-  /* text-align: right; */
-  clear: both;
-}
-
-#fourth .timeline ul li:nth-child(even) {
-  float: right;
-  text-align: left;
-  clear: both;
-}
-
 #fourth .content {
   padding-bottom: 20px;
   color: aliceblue;
+}
+
+#fourth ul li {
+  left: 50px;
 }
 
 #fourth ul li:nth-child(odd):before {
   content: "";
   position: absolute;
   top: 0px;
-  right: -72px;
+  left: -60px;
   width: 20px;
   height: 20px;
   background: rgba(233, 33, 99, 1);
@@ -261,7 +243,7 @@ section:not(#intro) {
   content: "";
   position: absolute;
   top: 0px;
-  right: 560px;
+  left: -60px;
   width: 20px;
   height: 20px;
   background: rgba(233, 33, 99, 1);
@@ -337,80 +319,23 @@ section:not(#intro) {
 
   .nav-item {
     height: 50px;
-    width: 90%;
     border-bottom: 1px solid gray;
-  }
-
-  .navbar {
-    height: 60px;
-  }
-
-  #intro img {
-    margin-top: 310px;
-  }
-
-  #second h2 {
-    margin-bottom: 63px;
   }
 
   #second img {
     margin-bottom: 50px;
   }
 
-  #fourth .timeline:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0%;
-    transform: translateX(-50%);
-    width: 2px;
-    height: 95%;
-    background: #1e1f22;
-  }
-
-  #fourth .timeline ul li:nth-child(odd) {
-    /* float: left; */
-    /* clear: right; */
-    transform: translateX(0px);
-    border-radius: 0px 20px 20px 20px;
-  }
-
-  #fourth .timeline ul li:nth-child(even) {
-    /* float: right; */
-    /* clear: left; */
-    transform: translateX(-630px);
-    border-radius: 0px 20px 20px 20px;
-  }
-
-  #fourth ul li:nth-child(odd):before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 530px;
-    width: 20px;
-    height: 20px;
-    background: rgba(233, 33, 99, 1);
-    border-radius: 50%;
-    box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.2);
-  }
-
-  #fourth ul li:nth-child(even):before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 530px;
-    width: 20px;
-    height: 20px;
-    background: rgba(233, 33, 99, 1);
-    border-radius: 50%;
-    box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.2);
+  #fourth .timeline ul li {
+    width: 40%;
   }
 
   #fifth .outer {
     margin-bottom: 54px;
   }
+
   #fifth .outer img {
-    width: 100%;
+    width: 765px;
   }
 
   #footer h4 {
