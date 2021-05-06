@@ -55,7 +55,7 @@ p {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
 }
 
 header li {
@@ -80,7 +80,7 @@ section:not(#intro) {
   padding: 0px 0px;
   background: rgba(0, 0, 0, 0.95);
   /* width: 100%; */
-  min-width: 1024px;
+  width: 100%;
   left: 0px;
 }
 
@@ -307,8 +307,7 @@ section:not(#intro) {
 
 @media only screen and (max-width: 768px) {
   body {
-    /* width: 100%; */
-    min-width: 100%;
+    width: 100%;
     margin: 0px;
     padding: 0px;
     background-size: cover;
@@ -332,7 +331,7 @@ section:not(#intro) {
   .row {
     padding-right: 0px;
     width: 100%;
-    min-width: 100%;
+    width: 100%;
     scale: 50%;
   }
 
