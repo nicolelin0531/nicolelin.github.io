@@ -23,9 +23,15 @@ li {
   font-family: "Noto Sans TC", sans-serif;
 }
 
+html {
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 body {
   width: 100%;
-  margin: auto;
+  margin: 0 auto;
   padding: auto;
   background-size: cover;
   overflow-x: hidden;
@@ -297,16 +303,6 @@ section:not(#intro) {
   .row {
     padding-right: 0px;
     width: 100%;
-  }
-
-  .navbar {
-    position: fixed;
-    z-index: 5555;
-    padding: 0px 0px;
-    background: rgba(0, 0, 0, 0.95);
-    width: 100%;
-    left: 0px;
-    scale: 50%;
   }
 
   .zi_box_1 {
