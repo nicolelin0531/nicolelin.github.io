@@ -28,7 +28,7 @@ body {
   margin: auto;
   padding: auto;
   background-size: cover;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 img {
