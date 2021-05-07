@@ -28,6 +28,7 @@ body {
   margin: auto;
   padding: auto;
   background-size: cover;
+  overflow: hidden;
 }
 
 img {
@@ -230,6 +231,10 @@ section:not(#intro) {
   box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.2);
 }
 
+#fourth br {
+  display: none;
+}
+
 #fifth {
   padding: 50px 0px;
   background: rgb(245, 245, 245);
@@ -349,6 +354,14 @@ section:not(#intro) {
 
   #second ul li {
     font-size: 18px;
+  }
+
+  #fourth br {
+    display: list-item;
+  }
+
+  #fourth .timeline-content .date {
+    line-height: 2;
   }
 
   #fourth .timeline ul li {
