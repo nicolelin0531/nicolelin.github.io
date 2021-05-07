@@ -37,13 +37,8 @@ body {
   margin-left: 20px;
 }
 
-col-md-* {
-  padding-right: 0px;
-  padding-left: 0px;
-}
-
-.row {
-  padding-right: 0px;
+img {
+  width: 100%;
 }
 
 h2 {
@@ -52,10 +47,6 @@ h2 {
 
 p {
   color: #707070;
-}
-
-img {
-  width: 100%;
 }
 
 header li {
@@ -79,13 +70,20 @@ section:not(#intro) {
   z-index: 5555;
   padding: 0px 0px;
   background: rgba(0, 0, 0, 0.95);
-  /* width: 100%; */
   width: 100%;
   left: 0px;
 }
 
-#intro {
-  padding: 0px 0px;
+.zi_box_1 {
+  border: 6px double #02080e; /* 框線顏色 */
+  margin: 0px 0px;
+  margin-left: 35%;
+  width: 500px;
+}
+
+.bottomPart {
+  margin-top: 80px;
+  margin-left: 20%;
 }
 
 #intro .jumbotron {
@@ -133,31 +131,18 @@ section:not(#intro) {
 }
 
 #second {
-  padding: 80px 0px;
+  padding: 50px 0px;
   background: #f3eddd;
-}
-
-#second h2 {
-  margin-bottom: 80px;
-  color: black;
 }
 
 #second img {
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.8);
 }
 
-#second .rightPart {
-  padding-left: 30px;
-}
-
 #third {
   background-image: linear-gradient(to top left, #fcc930ee, #f2f2f7);
   /* background: #fcc930ee; */
-  padding: 80px 0px;
-}
-
-#third h2 {
-  margin-bottom: 80px;
+  padding: 50px 0px;
 }
 
 #third .progress {
@@ -166,12 +151,8 @@ section:not(#intro) {
 }
 
 #fourth {
-  padding: 80px 0px;
+  padding: 50px 0px;
   background: #ffb2bc;
-}
-
-#fourth h2 {
-  margin-bottom: 80px;
 }
 
 #fourth .timeline {
@@ -249,13 +230,8 @@ section:not(#intro) {
 }
 
 #fifth {
-  padding: 80px 0px;
+  padding: 50px 0px;
   background: rgb(245, 245, 245);
-}
-
-#fifth h2 {
-  margin-bottom: 80px;
-  text-align: center;
 }
 
 #fifth .lower h4 {
@@ -310,28 +286,11 @@ section:not(#intro) {
     margin: 0px;
     padding: 0px;
     background-size: cover;
-    scale: 0.5;
-  }
-
-  .container {
-    width: 100%;
-    padding: 0px 0px;
-    background-size: 100% 100%;
-    scale: 0.5;
-  }
-
-  col-md-* {
-    padding-right: 0px;
-    padding-left: 0px;
-    width: 100%;
-    scale: 50%;
   }
 
   .row {
     padding-right: 0px;
     width: 100%;
-    width: 100%;
-    scale: 50%;
   }
 
   .navbar {
@@ -342,6 +301,18 @@ section:not(#intro) {
     width: 100%;
     left: 0px;
     scale: 50%;
+  }
+
+  .zi_box_1 {
+    border: 6px double #02080e; /* 框線顏色 */
+    margin: 0px 0px;
+    margin-left: 15%;
+    width: 400px;
+  }
+
+  .bottomPart {
+    margin-top: 60px;
+    margin-left: 10%;
   }
 
   h1 {
