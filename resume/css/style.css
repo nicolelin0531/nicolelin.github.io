@@ -25,16 +25,9 @@ li {
 
 body {
   width: 100%;
-  margin: 0px;
-  padding: 0px;
+  margin: auto;
+  padding: auto;
   background-size: cover;
-}
-
-.container {
-  width: 100%;
-  padding: 0px 0px;
-  background-size: 100% 100%;
-  margin-left: 20px;
 }
 
 img {
@@ -68,22 +61,19 @@ section:not(#intro) {
 .navbar {
   position: fixed;
   z-index: 5555;
-  padding: 0px 0px;
   background: rgba(0, 0, 0, 0.95);
-  width: 100%;
+  width: auto;
   left: 0px;
 }
 
 .zi_box_1 {
   border: 6px double #02080e; /* 框線顏色 */
-  margin: 0px 0px;
-  margin-left: 35%;
+  margin: 0px auto;
   width: 500px;
 }
 
 .bottomPart {
   margin-top: 80px;
-  margin-left: 20%;
 }
 
 #intro .jumbotron {
@@ -101,7 +91,6 @@ section:not(#intro) {
 }
 
 #intro h1 {
-  /* margin-top: 150px; */
   color: rgba(255, 255, 255, 0.932);
 }
 
@@ -167,7 +156,7 @@ section:not(#intro) {
   width: 3px;
   height: 100%;
   background: #1e1f22;
-  margin-left: 50px;
+  margin-left: 10%;
 }
 
 #fourth .timeline ul li {
@@ -202,14 +191,14 @@ section:not(#intro) {
 }
 
 #fourth ul li {
-  left: 100px;
+  margin-left: 15%;
 }
 
 #fourth ul li:nth-child(odd):before {
   content: "";
   position: absolute;
   top: 0px;
-  left: -60px;
+  margin-left: -11%;
   width: 20px;
   height: 20px;
   background: rgba(233, 33, 99, 1);
@@ -221,7 +210,7 @@ section:not(#intro) {
   content: "";
   position: absolute;
   top: 0px;
-  left: -60px;
+  margin-left: -11%;
   width: 20px;
   height: 20px;
   background: rgba(233, 33, 99, 1);
@@ -350,6 +339,30 @@ section:not(#intro) {
 
   #fourth .timeline ul li {
     width: 25%;
+  }
+
+  #fourth ul li:nth-child(odd):before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    margin-left: -31%;
+    width: 20px;
+    height: 20px;
+    background: rgba(233, 33, 99, 1);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.2);
+  }
+
+  #fourth ul li:nth-child(even):before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    margin-left: -31%;
+    width: 20px;
+    height: 20px;
+    background: rgba(233, 33, 99, 1);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(233, 33, 99, 0.2);
   }
 
   #fifth .outer {
