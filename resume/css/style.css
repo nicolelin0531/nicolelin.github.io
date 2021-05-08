@@ -211,14 +211,14 @@ section:not(#intro) {
 }
 
 #fourth ul li {
-  margin-left: 5%;
+  margin-left: 4%;
 }
 
 #fourth ul li:nth-child(odd):before {
   content: "";
   position: absolute;
   top: 0px;
-  margin-left: -11%;
+  margin-left: -10%;
   width: 20px;
   height: 20px;
   background: rgba(233, 33, 99, 1);
@@ -230,7 +230,7 @@ section:not(#intro) {
   content: "";
   position: absolute;
   top: 0px;
-  margin-left: -11%;
+  margin-left: -10%;
   width: 20px;
   height: 20px;
   background: rgba(233, 33, 99, 1);
@@ -257,7 +257,7 @@ section:not(#intro) {
   background: white;
   box-shadow: 0 0 8px 0 #000000cc;
   margin-bottom: 40px;
-  margin-left: 3%;
+  margin-left: 2%;
 }
 
 #fifth .lower {
@@ -329,7 +329,7 @@ section:not(#intro) {
   }
 
   .progress {
-    width: 80%;
+    width: 90%;
   }
 
   .headerDivider {
@@ -343,7 +343,7 @@ section:not(#intro) {
 
   #intro .jumbotron .row {
     margin-top: 10px;
-    margin-left: 0%;
+    margin-left: -1%;
   }
 
   #second img {
@@ -372,7 +372,7 @@ section:not(#intro) {
     content: "";
     position: absolute;
     top: 0px;
-    margin-left: -32%;
+    margin-left: -27%;
     width: 20px;
     height: 20px;
     background: rgba(233, 33, 99, 1);
@@ -384,7 +384,7 @@ section:not(#intro) {
     content: "";
     position: absolute;
     top: 0px;
-    margin-left: -32%;
+    margin-left: -27%;
     width: 20px;
     height: 20px;
     background: rgba(233, 33, 99, 1);
