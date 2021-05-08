@@ -339,7 +339,7 @@ section:not(#intro) {
 
   #intro .jumbotron .row {
     margin-top: 10px;
-    margin-left: 0%;
+    margin-left: 1%;
   }
 
   #second img {
@@ -390,6 +390,7 @@ section:not(#intro) {
 
   #fifth .outer {
     margin-bottom: 54px;
+    margin-left: 1%;
   }
 
   #footer h4 {
