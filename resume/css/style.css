@@ -342,6 +342,10 @@ section:not(#intro) {
     margin-left: 0.5%;
   }
 
+  #intro .introBottom {
+    margin-left: -1.5%;
+  }
+
   #second img {
     margin-bottom: 50px;
     width: 80%;
