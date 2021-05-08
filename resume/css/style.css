@@ -90,6 +90,7 @@ section:not(#intro) {
 
 #intro .jumbotron .row {
   margin-top: 10px;
+  margin-left: 5%;
 }
 
 #intro h2 {
@@ -308,7 +309,7 @@ section:not(#intro) {
   .zi_box_1 {
     border: 6px double #02080e; /* 框線顏色 */
     margin: 0px 0px;
-    margin-left: 12%;
+    margin-left: 10%;
     width: 400px;
   }
 
@@ -342,10 +343,15 @@ section:not(#intro) {
     border-bottom: 1px solid gray;
   }
 
+  #intro .jumbotron .row {
+    margin-top: 10px;
+    margin-left: 9%;
+  }
+
   #second img {
     margin-bottom: 50px;
-    width: 60%;
-    margin-left: 15%;
+    width: 70%;
+    margin-left: 20%;
   }
 
   #second ul li {
