@@ -328,10 +328,6 @@ section:not(#intro) {
     font-size: 22px;
   }
 
-  .progress {
-    width: 95%;
-  }
-
   .headerDivider {
     display: none;
   }
