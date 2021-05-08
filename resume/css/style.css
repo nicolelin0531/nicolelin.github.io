@@ -253,14 +253,11 @@ section:not(#intro) {
   text-align: center;
 }
 
-#fifth .lower i {
-  margin-right: 6px;
-}
-
 #fifth .outer {
   background: white;
-  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 8px 0 #000000cc;
   margin-bottom: 40px;
+  margin-left: 3%;
 }
 
 #fifth .lower {
@@ -287,6 +284,7 @@ section:not(#intro) {
 
 #footer ul li {
   margin-bottom: 20px;
+  color: #707070;
 }
 
 #footer ul li a {
@@ -345,7 +343,7 @@ section:not(#intro) {
 
   #intro .jumbotron .row {
     margin-top: 10px;
-    margin-left: -2%;
+    margin-left: 0%;
   }
 
   #second img {
@@ -401,6 +399,6 @@ section:not(#intro) {
   #footer h4 {
     margin-bottom: 26px;
     margin-top: 35px;
-    margin-left: 5%;
+    margin-left: 2%;
   }
 }
